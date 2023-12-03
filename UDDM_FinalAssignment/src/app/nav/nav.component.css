@@ -33,8 +33,14 @@
   text-decoration: none;
 }
 
-.links-flexboxParent div a:active {
+.links-flexboxParent div a:hover {
   color: #fff;
+}
+
+.links-flexboxParent div a:focus {
+  border-radius: 5px;
+  border-color: #94d8db;
+  border-width: 5px;
 }
 
 .verticalAlignFlexbox {
