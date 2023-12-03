@@ -1,19 +1,51 @@
 <div class="flexBoxParent">
   <header style="order: 1">
-    <div class="logoAndMissionStatementFlex">
-      <div style="order: 1" class="logo">
-        <img
-          src="../../assets/img/logo.webp"
-          alt="That's How I Roll Foundation Logo"
-        />
-      </div>
-      <div style="order: 2" class="missionStatement">
-        <h1>
-          Giving paraplegics and quadriplegics the confidence and ability to
-          live life to its fullest
-        </h1>
-      </div>
-    </div>
+    <ngb-carousel
+      style="
+        height: 322px;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 35px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      "
+    >
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <div class="logoAndMissionStatementFlex">
+            <div style="order: 1" class="logo">
+              <img
+                src="../../assets/img/logo.webp"
+                alt="That's How I Roll Foundation Logo"
+              />
+            </div>
+            <div style="order: 2" class="missionStatement">
+              <h1>
+                Giving paraplegics and quadriplegics the confidence and ability
+                to live life to its fullest
+              </h1>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img
+            src="../../assets/img/slider1pic2.png"
+            alt="Random second slide"
+          />
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img
+            src="../../assets/img/slider1pic3.png"
+            alt="Random third slide"
+          />
+        </div>
+      </ng-template>
+    </ngb-carousel>
   </header>
   <div class="goalsTitle" style="order: 2">
     <h1>The Goals of Our Foundation</h1>
@@ -109,6 +141,160 @@
         wheels started to turn, ideas were put together, and the Foundation was
         formed in 2011.
       </p>
+    </div>
+  </div>
+  <div class="setBackgroundBlack" style="order: 6">
+    <div class="boardMembersTitle">
+      <h1>Meet the Board Members</h1>
+    </div>
+  </div>
+  <div class="setBackgroundBlack" style="order: 7">
+    <div class="boardMembers">
+      <ngb-carousel
+        style="
+          height: 430px;
+          width: 100%;
+          padding-left: 10%;
+          padding-right: 10%;
+          padding-bottom: 35px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        "
+      >
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <div class="boardMembersFlex">
+              <div style="order: 1" class="boardMembersPicture">
+                <img
+                  src="../../assets/img/danielHersh.webp"
+                  alt="Picture of Daniel Hersh"
+                />
+              </div>
+              <div style="order: 2" class="boardMembersDescription">
+                <div style="order: 1">
+                  <h1>Daniel Hersh</h1>
+                </div>
+                <div style="order: 2">
+                  <p>Injured since 2005, Board Member since 2018.</p>
+                </div>
+                <div style="order: 3">
+                  <p>
+                    Daniel is the reason the Rolling Mammoth exists, and a great
+                    addition to our foundation. He brings lots of laughs and is
+                    quite fun to have around.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <div class="boardMembersFlex">
+              <div style="order: 1" class="boardMembersPicture">
+                <img
+                  src="../../assets/img/annaAranda.webp"
+                  alt="Picture of Anna Aranda"
+                />
+              </div>
+              <div style="order: 2" class="boardMembersDescription">
+                <div style="order: 1">
+                  <h1>Anna Aranda</h1>
+                </div>
+                <div style="order: 2">
+                  <p>Injured since 2003, Board Member since 2018.</p>
+                </div>
+                <div style="order: 3">
+                  <p>
+                    Anna is beautiful inside and out. She has a lot of passion
+                    and dedication for everything she does.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <div class="boardMembersFlex">
+              <div style="order: 1" class="boardMembersPicture">
+                <img
+                  src="../../assets/img/a-JayNagle.webp"
+                  alt="Picture of A-Jay Nagle"
+                />
+              </div>
+              <div style="order: 2" class="boardMembersDescription">
+                <div style="order: 1">
+                  <h1>A-Jay Nagle</h1>
+                </div>
+                <div style="order: 2">
+                  <p>Injured since 2005, Board Member since 2018.</p>
+                </div>
+                <div style="order: 3">
+                  <p>
+                    A-Jay is on the Denver Harlequins Quad Rugby Team, and an
+                    overall great guy with great insight.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <div class="boardMembersFlex">
+              <div style="order: 1" class="boardMembersPicture">
+                <img
+                  src="../../assets/img/dougDalton.webp"
+                  alt="Picture of Doug Dalton"
+                />
+              </div>
+              <div style="order: 2" class="boardMembersDescription">
+                <div style="order: 1">
+                  <h1>Doug Dalton</h1>
+                </div>
+                <div style="order: 2">
+                  <p>Injured since 2000, Board Member since 2011.</p>
+                </div>
+                <div style="order: 3">
+                  <p>
+                    Bowling is definitely Doug’s 1st love, he plays a little
+                    tennis, too. He’s a dedicated, funny guy, and great aspect
+                    to the foundation.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <div class="boardMembersFlex">
+              <div style="order: 1" class="boardMembersPicture">
+                <img
+                  src="../../assets/img/johnVcelka.webp"
+                  alt="Picture of John Vcelka"
+                />
+              </div>
+              <div style="order: 2" class="boardMembersDescription">
+                <div style="order: 1">
+                  <h1>John Vcelka</h1>
+                </div>
+                <div style="order: 2">
+                  <p>Injured since 2005, Board Member since 2011.</p>
+                </div>
+                <div style="order: 3">
+                  <p>
+                    John is the brains behind the nation wide website,
+                    Sportsabilities (logo on hat), plays on the Rolling Mammoth
+                    Lacrosse Team, and is a great addition to our team.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </ngb-carousel>
     </div>
   </div>
 </div>

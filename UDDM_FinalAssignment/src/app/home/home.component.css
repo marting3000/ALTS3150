@@ -1,6 +1,7 @@
 header {
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto 0 auto;
+  height: 100%;
 }
 
 .flexBoxParent {
@@ -38,6 +39,7 @@ header {
   background-color: #000;
   color: #94d8db;
   width: 100%;
+  padding: 10px 0px 10px 0px;
 }
 
 .goalsTitle h1 {
@@ -53,6 +55,7 @@ header {
   color: #fff;
   max-width: 1500px;
   margin: 0 auto 0 auto;
+  padding-bottom: 10px;
 }
 
 .goals a {
@@ -80,6 +83,7 @@ li {
   flex-direction: row;
   gap: 30px;
   margin: 0 auto 0 auto;
+  padding: 10px 0px 10px 0px;
 }
 
 .aboutUsTitle {
@@ -92,12 +96,14 @@ li {
 
 .aboutUsTitle h1 {
   font-size: 2.5em;
+  padding: 10px 0px 10px 0px;
 }
 
 .aboutUsTitleFlexBox {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  padding: 10px 0px 10px 0px;
 }
 
 .aboutUs p {
@@ -106,4 +112,38 @@ li {
 
 .aboutUsTitle p {
   color: #fff;
+}
+
+ngb-carousel {
+  height: 100px;
+}
+
+.boardMembersTitle {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+.boardMembers {
+  max-width: 1500px;
+  margin: 0 auto 0 auto;
+}
+
+.boardMembersFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.boardMembersPicture {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.boardMembersDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
