@@ -1,0 +1,28 @@
+.footerParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #000;
+  color: #94d8db;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+a {
+  color: #94d8db;
+}
+
+a:hover {
+  color: #fff;
+}

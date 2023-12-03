@@ -1,0 +1,45 @@
+.background {
+  background-color: #000;
+  width: 100%;
+}
+
+.nav-parent {
+  display: flex;
+  flex-direction: row;
+  color: #94d8db;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto 0 auto;
+}
+
+.logo-flexboxParent {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding-left: 20px;
+}
+
+.links-flexboxParent {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  height: 100%;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.links-flexboxParent div a {
+  color: #94d8db;
+  text-decoration: none;
+}
+
+.links-flexboxParent div a:active {
+  color: #fff;
+}
+
+.verticalAlignFlexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
