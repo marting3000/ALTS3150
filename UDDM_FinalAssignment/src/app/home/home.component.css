@@ -39,7 +39,7 @@ header {
   background-color: #000;
   color: #94d8db;
   width: 100%;
-  padding: 10px 0px 10px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 .goalsTitle h1 {
@@ -83,7 +83,7 @@ li {
   flex-direction: row;
   gap: 30px;
   margin: 0 auto 0 auto;
-  padding: 10px 0px 10px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 .aboutUsTitle {
@@ -96,14 +96,14 @@ li {
 
 .aboutUsTitle h1 {
   font-size: 2.5em;
-  padding: 10px 0px 10px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 .aboutUsTitleFlexBox {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  padding: 10px 0px 10px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 .aboutUs p {
@@ -120,7 +120,7 @@ ngb-carousel {
 
 .boardMembersTitle {
   text-align: center;
-  padding: 10px 0px 10px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 .boardMembers {
